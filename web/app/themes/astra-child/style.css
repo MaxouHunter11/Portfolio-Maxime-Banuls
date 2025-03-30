@@ -1,0 +1,172 @@
+/**
+ * Theme Name: Astra Child
+ * Description: Astra Child theme
+ * Author: Maxime Banuls
+ * Template: astra
+ * Text Domain: astra
+ */
+
+/* Style pour les réalisations individuelles */
+.portfolio-single {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.portfolio-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.portfolio-content {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.portfolio-content p {
+    margin: 10px 0;
+}
+
+.portfolio-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.portfolio-gallery img {
+    max-width: calc(33.333% - 10px);
+    height: auto;
+    border-radius: 4px;
+}
+
+/* Style pour l'archive des portfolios */
+.portfolio-archive {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+}
+
+.portfolio-title {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.portfolio-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.portfolio-item {
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background: #fff;
+    transition: transform 0.3s ease;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portfolio-item:hover {
+    transform: translateY(-10px);
+}
+
+.portfolio-thumbnail {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+
+.portfolio-thumbnail img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.portfolio-item-title {
+    font-size: 1.5em;
+    color: #0073aa;
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* Style pour que le contenu prenne toute la largeur de la page */
+.homepage {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.homepage .about,
+.homepage .top-projects {
+    width: 100%;
+    max-width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+.homepage .about {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.homepage .about h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.homepage .about p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+/* Style pour la section des meilleures réalisations */
+.homepage .top-projects {
+    margin: 40px 0;
+}
+
+.homepage .top-projects h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.homepage .projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.homepage .project-item {
+    width: calc(33.333% - 20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    background: #fff;
+    text-align: center;
+}
+
+.homepage .project-item h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.homepage .project-item img {
+    max-width: 100%;
+    height: auto;
+}
